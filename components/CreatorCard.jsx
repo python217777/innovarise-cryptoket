@@ -16,7 +16,7 @@ const CreatorCard = ({ rank, creatorImage, creatorName, creatorEths }) => {
       <div className="my-2 flex justify-center">
         <div className="relative w-20 h-20 minlg:w-28 minlg:h-28">
           <Image
-            src={creatorImage}
+            src={creatorImage || images.creator1}
             layout="fill"
             objectFit="cover"
             alt="creator"

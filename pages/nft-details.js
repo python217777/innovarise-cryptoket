@@ -81,7 +81,7 @@ const NFTDetails = () => {
           <p className="font-poppins dark:text-white text-nft-black-1 text-xs minlg:text-base font-normal">Creator</p>
           <div className="flex flex-row items-center mt-3">
             <div className="relative w-12 h-12 minlg:w-20 minlg:h-20 mr-2">
-              <Image src={images.creator1} objectFit="cover" className="rounded-full" />
+              <Image src={images.creator1} objectFit="cover" className="rounded-full" layout="fill" />
             </div>
             <p className="font-poppins dark:text-white text-nft-black-1 text-xs minlg:text-base font-semibold">{shortenAddress(nft.seller)}</p>
           </div>
